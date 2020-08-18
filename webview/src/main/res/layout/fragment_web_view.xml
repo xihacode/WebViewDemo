@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WebViewFragment">
+
+        <com.kun.webview.webviewprocess.BaseWebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</layout>
